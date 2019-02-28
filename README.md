@@ -8,16 +8,17 @@ C++ Library to compute graph kernels on molecular graphs. Mainly my PhD work.
 
 
 ## To Compile : 
-`cd GraphKernels
-mkdir build
-cd build
-cmake ../
-make
-cd ../../
-mkdir build
-cd build
-cmake ../Molecules 
-make`
+
+- cd GraphKernels
+- mkdir build
+- cd build
+- cmake ../
+- make
+- cd ../../
+- mkdir build
+- cd build
+- cmake ../Molecules 
+- make
 
 ## References
 This library is mainly an implementations of these papers:
