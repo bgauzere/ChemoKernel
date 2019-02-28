@@ -61,13 +61,11 @@ file. Example :
 `$>./bin/moleculesTreeletData ~/work/Datasets/Acyclic/ dataset_bps.ds -o data`
 
 This will create 4 files :
+ * `data_treelets_types` : Cumulative sum of number of treelets for each kind of pattern 
+ * `data_treelets_codes` : Canonical codes associated to each treelet
+ * `data_y` : The value to predict associated to each graph of a dataset
+ * `data_treelets_distrib` : The number of occurences of each treelet for each graph
 
-	* `data_treelets_types` : Cumulative sum of number of treelets for
-	each kind of pattern 
-	* `data_treelets_codes` : Canonical codes associated to each treelet
-	* `data_y` : The value to predict associated to each graph of a dataset
-	* `data_treelets_distrib` : The number of occurences of each treelet for
-	  each graph
 * `./bin/moleculesComputeGramMatrice ~/work/Datasets/Acyclic/ dataset_bps.ds -gram gram -k 6`
   Compute a Gram Matrix using treelet kernel and store it in "gram"
   file. This file is a plain text files encoding a NxN Matrix with
