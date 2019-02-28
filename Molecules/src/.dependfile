@@ -1,0 +1,2 @@
+MoleculeGraph.o: MoleculeGraph.cpp MoleculeGraph.h
+moleculeTest.o: moleculeTest.cpp MoleculeGraph.h
